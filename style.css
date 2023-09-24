@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 button {
     background: none;
     overflow: none;
@@ -15,4 +16,31 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question {
+    font-size: 150px;
+    color: #15a29c;
+}
+.btn_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 15px;
+    color: #15a29c;
+    font-size: 50px;
+    border: 1px solid #15a29c;
+    border-radius: 10px;
+}
+
+.none {
+    display: none;
 }
